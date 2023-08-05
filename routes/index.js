@@ -68,6 +68,66 @@ const nameList = [
   description: "It involves various testing types, such as unit tests, integration tests, and end-to-end tests, to ensure that changes do not introduce defects and meet quality standards.",
   reference: "Katalon. (2022). Introduction to Continuous Testing | Definition, Tools & How to Perform. Retrieved from Katalon: https://katalon.com/resources-center/blog/continuous-testing-introduction"
 },
+{
+  id: 11,
+  term: "Infrastructure as Code (IaC)",
+  description: "IaC is a practice that enables developers to manage and provision infrastructure through code, using version control systems to automate the process of creating, modifying, and destroying infrastructure components. This approach helps ensure infrastructure stability, repeatability and scalability.",
+  reference: "Mitchell, B. (December 18, 2019). Infrastructure as Code: A Comprehensive Guide. Retrieved from HashiCorp: https://www.bashicorp.com/resources/what-is-infrastructor-as-code"
+},
+{
+  id: 12,
+  term: "Continuous Deployment (CD)",
+  description: "CD is a continuous delivery deployment where code changes are automatically pushed to production after passing all automated testing steps. This enables fast and reliable software release and shortens the time from development to deployment.",
+  reference: "Fowler, M. (21 August 2013). Continuous delivery. Retrieved from MartinFowler.com: https://martinfowler.com/bliki/Continuousdelivery.html"
+},
+{
+  id: 13,
+  term: "Infrastructure orchestration:",
+  description: "Infrastructure orchestration involves automating the provisioning, coordination and management of various infrastructure resources and services across multiple environments. This makes efficient use of resources and simplifies application deployment and scaling.",
+  reference: "Kavis, M. (December 20, 2017). Describe infrastructure orchestration. Retrieved from InfoQ: https://www.infoq.com/articles/infrastructor-orchestration-explained/"
+},
+{
+  id: 14,
+  term: "Incident Management:",
+  description: "Incident management is a set of processes and activities that focus on identifying, responding to, and resolving incidents and service disruptions. The goal is to restore normal operations as quickly as possible with minimal impact to users and business operations.",
+  reference: "Atlassian. (n.d.). Incident Management. Retrieved from Atlassian: https://www.atlassian.com/incident-management"
+},
+{
+  id: 15,
+  term: "Chat operation",
+  description: "ChatOps is a collaboration model that integrates chat tools with automation and monitoring systems. This allows teams to take action, receive notifications and access information from within the chat platform, promoting transparency and real-time communication.",
+  reference: "Scott, J. (2016, May 16). ChatOps: Heroes Guide on GitHub. Taken from GitHub Engineering: https://github.blog/2016-05-16-chatops-at-github/"
+},
+{
+  id: 16,
+  term: "Blue-green expansion",
+  description: "Green-blue deployment is a deployment strategy that uses two identical production environments, blue and green. A new version of the application is deployed in the green environment and the blue environment serves the current version. Once the green environment is validated, traffic changes from blue to green, reducing downtime and risk during deployment.",
+  reference: "Hamer, M. (March 24, 2021). A description of the blue/green deployment. Taken from DevOpsCube: https://www.devopscube.com/blue-green-deployment/"
+},
+{
+  id: 17,
+  term: "Canary deployment",
+  description: "Canary deployment is a strategy for gradually releasing a new version of an application to a subset of users or servers. This allows you to test new versions in production with a smaller audience and find problems earlier than a full launch.",
+  reference: " Datadog. (n.d.). What is Canary Deployment? Retrieved from Datadog: https://www.datadoghq.com/glossary/canary-deployment/"
+},
+{
+  id: 18,
+  term: "Elasticity",
+  description: "Elasticity refers to the ability of an application or infrastructure to automatically increase or decrease resources based on demand. This allows the system to handle a wide variety of workloads efficiently and cost-effectively.",
+  reference: "AWS. (n.d.). What is Elasticity in the Cloud? Retrieved from Amazon Web Services: https://aws.amazon.com/what-is-aws/elasticity/"
+},
+{
+  id: 19,
+  term: "GitOps",
+  description: "GitOps is an approach to DevOps that uses version control systems like Git to manage infrastructure and application configuration. Changes to the system are declared in a Git repository and automated processes apply those changes to the target environment.",
+  reference: "Weaveworks. (n.d.). GitOps - What You Need to Know. Retrieved from Weaveworks: https://www.weave.works/technologies/gitops/"
+},
+{
+  id: 20,
+  term: "Feature Flag",
+  description: "Feature flags are configuration keys that allow developers to remotely enable or disable certain features of their application. This allows for incremental rollouts, A/B testing, and risk-free feature adoption.",
+  reference: "Rollout. (n.d.). What is a Feature Flag? Retrieved from Rollout.io: https://rollout.io/blog/feature-flag-best-practices-definition/"
+},
 ];
 
 /* GET home page. */
