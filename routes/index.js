@@ -128,6 +128,66 @@ const nameList = [
   description: "Feature flags are configuration keys that allow developers to remotely enable or disable certain features of their application. This allows for incremental rollouts, A/B testing, and risk-free feature adoption.",
   reference: "Rollout. (n.d.). What is a Feature Flag? Retrieved from Rollout.io: https://rollout.io/blog/feature-flag-best-practices-definition/"
 },
+{
+  id: 21,
+  term: "Docker",
+  description: "Docker is a platform that enables developers to develop, deploy, and run applications in isolated containers. Containers enclose an application and its dependencies, ensuring consistent behavior across environments. they give.",
+  reference: "Docker. (2023). What is Docker? Retrieved from Docker: https://www.docker.com/what-docker"
+},
+{
+  id: 22,
+  term: "Docker image",
+  description: "A Docker image is a lightweight, self-contained executable package that contains the application code, runtime, libraries, and dependencies required to run your application. Images are the base of containers.",
+  reference: "Docker. (2013). Introduction to Docker Images. Retrieved from Docker: https://docs.docker.com/get-started/overview/#docker-images"
+},
+{
+  id: 23,
+  term: "Docker container",
+  description: "A Docker container is an instance of a Docker image that runs as a lightweight, isolated environment. Containers isolate processes and make applications portable and compatible across different systems.",
+  reference: "Docker. (2023). About images and containers. Retrieved from Docker: https://docs.docker.com/get-started/overview/#images-and-containers"
+},
+{
+  id: 24,
+  term: "Dockerfile",
+  description: "A Dockerfile is a text file that contains instructions for building a Docker image. It specifies the base image, application code, runtime configuration, and other settings needed to build a stable image.",
+  reference: "Docker. (2016). Dockerfile reference. Retrieved from Docker: https://docs.docker.com/engine/reference/builder/"
+},
+{
+  id: 25,
+  term: "Registry",
+  description: "The Docker Registry is a repository for Docker images. It stores and manages Docker images and allows users to share, distribute, and download images from multiple locations.",
+  reference: "Docker. (2023). About registries. Retrieved from Docker: https://docs.docker.com/get-started/overview/#registries"
+},
+{
+  id: 26,
+  term: "Docker Compose",
+  description: "Docker Compose is a tool for defining and running multi-container Docker applications. It uses YAML files to configure services, networks, and volumes, making it easier to manage complex application configurations.",
+  reference: "Docker. (2019). Starting Docker Compose. Retrieved from Docker: https://docs.docker.com/compose/gettingstarted/"
+},
+{
+  id: 27,
+  term: "Docker swarm",
+  description: "Docker Swarm is Docker's native clustering and orchestration solution. It lets you create and manage swarms of Docker nodes, making it easier to deploy and scale applications across clusters.",
+  reference: "Docker. (2018). What is Docker Swarm? Retrieved from Docker: https://docs.docker.com/engine/swarm/"
+},
+{
+  id: 28,
+  term: "Docker Hub",
+  description: "Docker Hub is a cloud-based repository for Docker images. It provides a platform for sharing, storing and managing Docker images, making it easy for developers to access and distribute container images.",
+  reference: "Docker. (2017). About Docker Hub. Retrieved from Docker: https://docs.docker.com/docker-hub/"
+},
+{
+  id: 29,
+  term: "Docker network",
+  description: "Docker Network is a communication bridge between Docker containers. It allows containers to communicate with each other and with external networks, facilitating isolated and controlled communication.",
+  reference: "Docker. (2023). About Networking. Retrieved from Docker: https://docs.docker.com/get-started/overview/#networking"
+},
+{
+  id: 30,
+  term: "Docker registry authentication",
+  description: "Docker registry authentication is the process of securely authenticating users and clients when accessing Docker registries. This increases security by ensuring that only authorized users can push or remove images from the registry.",
+  reference: "Docker. (2021). Authenticate Docker to a registry. Retrieved from Docker: https://docs.docker.com/get-started/overview/#authenticate-docker-to-a-registry"
+},
 ];
 
 /* GET home page. */
