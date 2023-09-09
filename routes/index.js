@@ -188,6 +188,66 @@ const nameList = [
   description: "Docker registry authentication is the process of securely authenticating users and clients when accessing Docker registries. This increases security by ensuring that only authorized users can push or remove images from the registry.",
   reference: "Docker. (2021). Authenticate Docker to a registry. Retrieved from Docker: https://docs.docker.com/get-started/overview/#authenticate-docker-to-a-registry"
 },
+{
+  id: 31,
+  term: "HCL (HashiCorp Configuration Language)",
+  description: "HCL is a domain-specific language developed by HashiCorp for defining infrastructure as code. It is commonly used with Terraform to describe and configure cloud resources in a human-readable format.",
+  reference: "HashiCorp. (2021). HashiCorp Configuration Language (HCL). Retrieved from https://www.terraform.io/docs/language/index.html"
+},
+{
+  id: 32,
+  term: "Provider",
+  description: "In the context of Terraform, a provider is a plugin that allows Terraform to interact with a specific cloud or service provider's API. Providers enable Terraform to create, modify, and delete resources in the target environment.",
+  reference: "Reference: Terraform. (2020). Providers. Retrieved from https://www.terraform.io/docs/providers/index.html"
+},
+{
+  id: 33,
+  term: "Terraform Module",
+  description: " A Terraform module is a reusable and encapsulated set of Terraform configurations that represent a specific piece of infrastructure. Modules are used to promote code reusability and maintainability in Terraform projects.",
+  reference: "Terraform. (2019). Modules. Retrieved from https://www.terraform.io/docs/language/modules/index.html"
+},
+{
+  id: 34,
+  term: "State File (Terraform State)",
+  description: "Terraform uses a state file to keep track of the current state of the managed infrastructure. It contains information about the resources Terraform is managing, their attributes, and dependencies.",
+  reference: "Terraform. (2018). State. Retrieved from https://www.terraform.io/docs/language/state/index.html"
+},
+{
+  id: 35,
+  term: "Variable Interpolation",
+  description: "Variable interpolation in Terraform allows you to embed the values of variables or expressions within strings and other attribute values. It enables dynamic configuration based on variable values.",
+  reference: "Terraform. (2017). Interpolation Syntax. Retrieved from https://www.terraform.io/docs/language/expressions/strings.html"
+},
+{
+  id: 36,
+  term: "Resource Dependencies",
+  description: "In Terraform, resource dependencies define the order in which resources are created or updated. Terraform automatically determines these dependencies based on resource references in your configuration.",
+  reference: "Terraform. (2019). Resource Dependencies. Retrieved from https://www.terraform.io/docs/language/meta-arguments/depends_on.html"
+},
+{
+  id: 37,
+  term: "Provisioner",
+  description: " A provisioner in Terraform is used to execute scripts or commands on a resource after it has been created. This is often used for tasks like configuration, initialization, or software installation.",
+  reference: "Terraform. (2019). Provisioners. Retrieved from https://www.terraform.io/docs/language/resources/provisioners/index.html"
+},
+{
+  id: 38,
+  term: "Backend Configuration (Terraform Backend)",
+  description: "The Terraform backend configuration defines where the Terraform state file is stored, such as in a remote storage solution like AWS S3 or HashiCorp Consul. It allows for collaboration and state management.",
+  reference: "Terraform. (2020). Backends. Retrieved from https://www.terraform.io/docs/language/settings/backends/index.html"
+},
+{
+  id: 39,
+  term: "Terraform Plan",
+  description: "Terraform provides a plan command that generates an execution plan showing what changes will be made to the infrastructure when terraform apply is run. This helps in understanding the impact of changes before they are applied.",
+  reference: "Terraform. (2018). Plan. Retrieved from https://www.terraform.io/docs/cli/commands/plan.html"
+},
+{
+  id: 40,
+  term: "Remote State",
+  description: "Remote state in Terraform refers to the practice of storing the Terraform state file in a remote location, such as a version-controlled storage bucket. This allows for better collaboration and state isolation.",
+  reference: "Terraform. (2021). Remote State. Retrieved from https://www.terraform.io/docs/language/state/remote.html"
+},
 ];
 
 /* GET home page. */
