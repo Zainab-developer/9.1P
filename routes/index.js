@@ -248,6 +248,66 @@ const nameList = [
   description: "Remote state in Terraform refers to the practice of storing the Terraform state file in a remote location, such as a version-controlled storage bucket. This allows for better collaboration and state isolation.",
   reference: "Terraform. (2021). Remote State. Retrieved from https://www.terraform.io/docs/language/state/remote.html"
 },
+{
+  id: 41,
+  term: "Kubernetes",
+  description: "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides features for load balancing, self-healing, and rolling updates.",
+  reference: "Kubernetes. (2022). What is Kubernetes? Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"
+},
+{
+  id: 42,
+  term: "Pod",
+  description: "In Kubernetes, a Pod is the smallest deployable unit that represents a single instance of a running process in a cluster. It can contain one or more containers that share the same network and storage namespace.",
+  reference: "Kubernetes. (2021). Pods. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/workloads/pods/"
+},
+{
+  id: 43,
+  term: "Service",
+  description: "A Kubernetes Service is an abstraction that defines a set of Pods and a policy for accessing them. It enables load balancing, service discovery, and routing traffic to the appropriate Pods.",
+  reference: "Kubernetes. (2020). Services. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/services-networking/service/"
+},
+{
+  id: 44,
+  term: "Ingress",
+  description: "Ingress in Kubernetes is an API object that manages external access to services within a cluster. It provides features for HTTP and HTTPS routing, load balancing, and host-based routing.",
+  reference: "Kubernetes. (2019). Ingress. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/services-networking/ingress/"
+},
+{
+  id: 45,
+  term: "Node",
+  description: "In Kubernetes, a Node is a physical or virtual machine that serves as a worker for running containers. Nodes are part of the cluster and execute the containerized workloads.",
+  reference: "Kubernetes. (2018). Nodes. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/architecture/nodes/"
+},
+{
+  id: 46,
+  term: "Namespace",
+  description: "A Kubernetes Namespace is a logical grouping mechanism for resources within a cluster. It allows for multi-tenancy and resource isolation by creating separate virtual clusters within a single physical cluster.",
+  reference: "Kubernetes. (2017). Namespaces. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/"
+},
+{
+  id: 47,
+  term: "ReplicaSet",
+  description: "A ReplicaSet in Kubernetes is an API object that ensures a specified number of replica Pods are running at all times. It helps maintain the desired number of identical Pods for high availability.",
+  reference: "Kubernetes. (2016). ReplicaSets. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+},
+{
+  id: 48,
+  term: "Operator (Kubernetes Operator)",
+  description: "A Kubernetes Operator is a pattern for packaging, deploying, and managing applications using Kubernetes custom resources. Operators automate complex, stateful application management tasks.",
+  reference: "Operator Framework. (2023). What Is an Operator? Retrieved from Operator Framework: https://operatorframework.io/what-is-an-operator/"
+},
+{
+  id: 49,
+  term: "Kubernetes Dashboard",
+  description: "The Kubernetes Dashboard is a web-based user interface for managing and monitoring Kubernetes clusters. It provides visibility into cluster resources, workloads, and configurations.",
+  reference: "Kubernetes. (2023). Web UI (Dashboard). Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/overview/ui/"
+},
+{
+  id: 50,
+  term: "Kubelet",
+  description: "Kubelet is an agent that runs on each Kubernetes Node and is responsible for managing containers on that node. It communicates with the Kubernetes control plane and ensures containers are running as expected.",
+  reference: "Kubernetes. (2023). Kubelet. Retrieved from Kubernetes Documentation: https://kubernetes.io/docs/concepts/overview/components/#kubelet"
+}
 ];
 
 /* GET home page. */
